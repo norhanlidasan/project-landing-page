@@ -76,12 +76,57 @@ ul {
   font-weight: 700;
   border-radius: 5px;
   border-style: none;
+  cursor: pointer;
 }
 
 .hero-section img {
   width: 32rem;
-  height: 14.5rem;
+  height: 16rem;
   flex-shrink: 0;
   border-radius: 0.3rem;
 }
+
+
+/* 5 images with description */
+
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.3rem;
+  text-align: justify;
+  padding-bottom: 0;
+  margin-bottom: 8rem;
+}
+
+.images h2 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+
+}
+.five-images {
+  display: flex;
+  width: 10rem;
+  gap: 3.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.five-images  img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.img p {
+  color: #555656;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  text-align-last: center;
+  width: 9rem;
+}
+
 
