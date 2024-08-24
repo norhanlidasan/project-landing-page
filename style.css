@@ -7,24 +7,81 @@ html {
   }
 body {
     margin: 0;
-    width: 1440px;
-    padding: 0 13rem;
+
 
 }
 h1 {
 font-size: 1.5rem;
 }
 
+.header, .hero-section {
+  background-color: #1F2937;
+  color: #f9faf8;
+}
+
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:0 13rem;
 
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 ul {
     display: flex;
     list-style: none;
     width: 26rem;
     justify-content: space-between;
+    font-size: 1rem;
 }
+
+
+/* Hero-section */
+.hero-section {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 13rem 8rem 13rem;
+  flex-wrap: wrap;
+}
+
+.hero-main {
+  /* border: 1px solid grey; */
+  width: 31rem;
+  padding-right: 3rem;
+ 
+
+}
+
+.hero-main h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.hero-main p {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-weight: 350;
+}
+
+
+.hero-main button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.hero-section img {
+  width: 32rem;
+  height: 14.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3rem;
+}
+
