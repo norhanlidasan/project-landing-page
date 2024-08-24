@@ -129,31 +129,83 @@ ul {
 /*  Content */
 
 .content {
-  background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 8rem 21rem 5rem 21rem;
+  align-items: center;
+  padding: 8rem 2rem 5rem 0;
   font-size: 2.2rem;
   font-weight: lighter;
   font-style: italic;
+  background-color: #e5e7eb;
 }
 
 .content p {
   margin: 0;
   padding: 0;
+  
 }
 
 .content p:first-child {
   width: 49rem;
 }
 .content p:last-child {
-  align-self: flex-end;
   font-weight: 800;
   font-style: normal;
   font-size: 1.5rem;
-  padding-right: 15rem;
+  align-self: center;
+  margin-left: 30rem;
 }
+
+/* Call of Action */
+
+.callOfaction {
+  padding: 6.75rem 16rem;
+  display: flex;
+  justify-content: center;
+}
+.callOfaction-content {
+  width: 64rem;
+  height: 9.5rem;
+  background-color: #3882f6;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.para p:first-child {
+  font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.para p:last-child {
+  font-weight: lighter;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.callOfaction-content button { 
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid #f9faf8;
+  cursor: pointer;
+ } 
+
+ .footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #1F2937;
+    color: #f9faf8;
+ }
 
 
 
