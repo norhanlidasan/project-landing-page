@@ -52,7 +52,6 @@ ul {
   /* border: 1px solid grey; */
   width: 31rem;
   padding-right: 3rem;
- 
 
 }
 
@@ -66,7 +65,6 @@ ul {
   margin-bottom: 0.4rem;
   font-weight: 350;
 }
-
 
 .hero-main button {
   background-color: #3882f6;
@@ -88,7 +86,6 @@ ul {
 
 
 /* 5 images with description */
-
 
 .images {
   display: flex;
@@ -128,5 +125,36 @@ ul {
   text-align-last: center;
   width: 9rem;
 }
+
+/*  Content */
+
+.content {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 21rem 5rem 21rem;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.content p {
+  margin: 0;
+  padding: 0;
+}
+
+.content p:first-child {
+  width: 49rem;
+}
+.content p:last-child {
+  align-self: flex-end;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding-right: 15rem;
+}
+
+
 
 
